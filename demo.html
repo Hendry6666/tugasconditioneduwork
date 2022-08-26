@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Object</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        // if(new Date().getHours()<23){
+        //     document.getElementById('demo').innerHTML = "Good Day!";
+        // }
+
+        const hour = new Date().getHours();
+        let greeting;
+
+        if(hour < 11){
+            greeting = "good Morning!";
+        }else if(hour < 18 ){
+            greeting = "good Day";
+        }else{
+            greeting = "good evening";
+        }
+
+        // let x,y;
+        // x = 5;
+        // y = 4;
+
+        // if ( x > y){
+        //     alert("Hore saya bisa");
+        // } else  {
+        //     alert("aku ra iso");
+        // }
+        
+    </script>
+</body>
+</html>
